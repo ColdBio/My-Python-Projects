@@ -10,6 +10,6 @@ def password_generator(length):
     random_generation = [random.choice(pool_of_chars) for i in range(length)]
     password = "".join(random_generation)
     print(password.strip())
-    return password
+    return password.strip()
 
 password_generator(22)
