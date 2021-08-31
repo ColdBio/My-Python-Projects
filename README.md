@@ -1,5 +1,5 @@
 ## 🐍 My Python Projects 🐍
-A collection of simple python projects. For projects that used a graphical user interface, an image has been provided underneath underneath their respective titles.
+A collection of simple python projects. For projects that used a graphical user interface, an image has been provided underneath their respective titles.
 
 ## ✅ Simple Trivia ❌
 
