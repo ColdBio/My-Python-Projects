@@ -12,7 +12,7 @@ def initial_values():
     try:
         print(eval(f"a {op} b"))
     except:
-        print("🚫 An error has occured, please run the program again 🚫")
+        print("🚫 An error has occured, please run the program 🚫")
 
 
 initial_values()
