@@ -19,10 +19,10 @@ for each in data["results"]:
 
 # GUI
 window = tk.Tk()
-window.title("❌ Simple Trivia ✅")
+window.title("✅ Simple Trivia ❌")
 
 labelC = tk.Label(text=f"Category: {category}")
-labelQ = tk.Label(text=f"Qesution: {question}")
+labelQ = tk.Label(text=f"Question: {question}")
 labelA = tk.Label(text=f"Answer: {answer}")
 
 # Based on difficulty a visual cue is displayed
