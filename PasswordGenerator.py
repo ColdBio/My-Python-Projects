@@ -1,4 +1,4 @@
-# A simple function that generates a password of fixed length determined by a desired length
+# A simple function that generates a password of a desired fixed length
 
 import random
 import string
