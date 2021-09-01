@@ -40,7 +40,7 @@ def GUI():
     date.pack()
     apod_image.pack()
     explanation.pack()
-    window.title("Nasa Astronomy Picture of the Day")
+    window.title("🔭 Nasa Astronomy Picture of the Day 🪐")
     window.mainloop()
 
 GUI()
