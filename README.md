@@ -10,3 +10,7 @@ A collection of simple python projects. For projects that used a graphical user 
 °C to °F         |  °F to °C
 :-------------------------:|:-------------------------:
 <img width="418" alt="Screenshot 2021-08-31 at 19 48 46" src="https://user-images.githubusercontent.com/64978825/131559348-b8ed88f3-5f0d-4fdf-9bbf-becfa416bb4f.png"> |  <img width="418" alt="Screenshot 2021-08-31 at 19 48 29" src="https://user-images.githubusercontent.com/64978825/131559352-6a54e95a-b69a-4e3f-9132-41b661050d53.png">
+
+## 🔭 Nasa Astronomy Picture of the Day 🪐
+The goal of this project was to get more familiar with handling API data but most importantly being able to display an image from a url source
+![Screenshot 2021-09-01 at 14 33 13](https://user-images.githubusercontent.com/64978825/131680796-35454174-373c-4fff-a6c4-5635a1d6d597.png)
