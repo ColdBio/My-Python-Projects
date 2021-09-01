@@ -6,7 +6,7 @@ import io
 import urllib.request
 from io import BytesIO
 
-url = requests.get("https://api.nasa.gov/planetary/apod?api_key={replace with your own key here}}")
+url = requests.get("https://api.nasa.gov/planetary/apod?api_key={replace with your own key here}")
 data = json.loads(url.text)
 
 def get_url_image():
