@@ -15,7 +15,7 @@ A collection of simple python projects. For projects that used a graphical user 
 The goal of this project was to get more familiar with handling API data but most importantly being able to display an image from a url source
 ![Screenshot 2021-09-01 at 14 33 13](https://user-images.githubusercontent.com/64978825/131680796-35454174-373c-4fff-a6c4-5635a1d6d597.png)
 
-## 📧 Sending Simple Emails using Python 📩
+## 📧 Email Sender Version 1 📩
 Email Contents |  More Details
 :-------------------------:|:-------------------------:
 <img width="325" alt="Screenshot 2021-09-04 at 21 23 19" src="https://user-images.githubusercontent.com/64978825/132107238-e16d9d6d-02ca-451e-9c50-ec6d20d83edc.png"> |<img width="351" alt="Screenshot 2021-09-04 at 21 23 26" src="https://user-images.githubusercontent.com/64978825/132107237-9c2d8f6a-2147-42a8-baa1-b2d4a55b31d8.png">
