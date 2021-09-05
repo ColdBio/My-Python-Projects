@@ -8,7 +8,7 @@ python -m smtpd -c DebuggingServer -n localhost:1025
 
 TODOs:- 
 1. Create a simple function that takes in a user defined sender, receiver, subject, and body using the terminal
-2. Allow someone to send emails using a GUI
+2. Allow someone to send emails using a GUI ✅ see SendingSimpleEmailV2.py file
 """
 
 # Sender and Receiver Emails
