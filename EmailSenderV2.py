@@ -22,7 +22,7 @@ body_field = tk.Text(window, height = 27)
 password_label = tk.Label(text="Password")
 password_field = tk.Entry(show="*", width= 62)
 
-def test():
+def email_handler():
     # Sender and Receiver Emails
     sender = from_field.get().lower()
     receiver = to_field.get().lower()
@@ -43,7 +43,7 @@ def test():
         server.sendmail(sender, receiver, message)
 
 
-submit_button = tk.Button(window, text="Send", command = test, width= 62)
+submit_button = tk.Button(window, text="Send", command = email_handler, width= 62)
 
 from_label.grid(row=1, column=1)
 from_field.grid(row=1, column=2)
