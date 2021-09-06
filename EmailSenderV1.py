@@ -4,7 +4,7 @@ import getpass
 """
 This project was completed as a code along using this guide -> https://realpython.com/python-send-email/
 
-python -m smtpd -c DebuggingServer -n localhost:1025
+# Make sure to setup a local SMTP debugging server :- python -m smtpd -c DebuggingServer -n localhost:1025
 
 TODOs:- 
 1. Create a simple function that takes in a user defined sender, receiver, subject, and body using the terminal
