@@ -26,3 +26,11 @@ Email Contents |  More Details
 GUI |  Gmail Inbox
 :-------------------------:|:-------------------------:
 <img width="972" alt="Screenshot 2021-09-05 at 21 30 21" src="https://user-images.githubusercontent.com/64978825/132140696-f5cab53c-67e0-4f24-9e5b-0aef08bbc50c.png"> |<img width="745" alt="Screenshot 2021-09-05 at 21 30 31" src="https://user-images.githubusercontent.com/64978825/132140695-68f60705-4f6b-4a08-bd35-125671f4bada.png">
+
+## 🌤 Basic Weather App Version 1 🌧
+
+Paris 🇫🇷  |  London 🇬🇧 | Tokyo 🇯🇵
+:-------------------------:|:-------------------------:|:-------------------------:
+<img width="299" alt="Screenshot 2021-09-06 at 18 27 12" src="https://user-images.githubusercontent.com/64978825/132249211-282d9eb4-45f2-4f75-9581-5a3e42a7ed33.png"> |<img width="297" alt="Screenshot 2021-09-06 at 18 26 53" src="https://user-images.githubusercontent.com/64978825/132249216-aa20f80c-f976-42b2-8440-d79fe67b7eec.png"> | <img width="294" alt="Screenshot 2021-09-06 at 18 26 39" src="https://user-images.githubusercontent.com/64978825/132249219-84b2176f-897e-4d1e-8148-4a88b3c53070.png"> |
+
+
