@@ -10,7 +10,7 @@ from PIL import Image, ImageTk
 
 def weather_api():
 
-    url = requests.get(f"http://api.openweathermap.org/data/2.5/weather?q=Paris&units=metric&appid=3d128e7aa2598d339e63306ea159e691")
+    url = requests.get(f"http://api.openweathermap.org/data/2.5/weather?q=Paris&units=metric&appid={Add your own API key here}")
     data = json.loads(url.text)
 
     city_name = data["name"]
