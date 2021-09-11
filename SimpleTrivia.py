@@ -25,16 +25,19 @@ labelC = tk.Label(text=f"Category: {category}")
 labelQ = tk.Label(text=f"Question: {question}")
 labelA = tk.Label(text=f"Answer: {answer}")
 
+# Consider adding a refresh button that reloads the window again so a new question can be posed
+new_question = tk.Button(window, text="New Question")
+
 # Based on difficulty a visual cue is displayed
 if difficulty == "hard":
     labelD = tk.Label(text=f"Difficulty: {difficulty}", fg="red")
 elif difficulty == "medium":
-     labelD = tk.Label(text=f"Difficulty: {difficulty}", fg="yellow")
+    labelD = tk.Label(text=f"Difficulty: {difficulty}", fg="yellow")
 elif difficulty == "easy":
-     labelD = tk.Label(text=f"Difficulty: {difficulty}", fg="green")
+    labelD = tk.Label(text=f"Difficulty: {difficulty}", fg="green")
 
 labelC.pack()
 labelD.pack()
 labelQ.pack()
 labelA.pack()
-window.mainloop()
+new_question.pack()
