@@ -7,7 +7,7 @@ def initial_values():
     print("Enter another value")
     b = int(input())
     print(f"The values you entered are {a} and {b}")
-    print("Please enter the type of operation you would like to perform \n for example '+' denotes the addition operation")
+    print("Please enter the type of operation you would like to perform \n for example '+' denotes addition")
     op = input()
     try:
         print(eval(f"a {op} b"))
