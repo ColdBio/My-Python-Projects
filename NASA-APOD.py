@@ -6,7 +6,7 @@ import io
 import urllib.request
 from io import BytesIO
 
-url = requests.get("https://api.nasa.gov/planetary/apod?api_key={replace with your own key here}")
+url = requests.get("https://api.nasa.gov/planetary/apod?api_key={Replace with your own API Key here}")
 data = json.loads(url.text)
 
 def get_url_image():
@@ -21,6 +21,7 @@ def GUI():
     title = tk.Label(text = data["title"])
     date = tk.Label(text = data["date"])
     explanation = tk.Label(text = data["explanation"], wraplength=1000, justify="center")
+    credit = tk.Label(text = f"Image Credit & Copyright - " + data["copyright"], wraplength=1000, justify="center")
 
 
     # Image handling
@@ -38,6 +39,7 @@ def GUI():
     
     title.pack()
     date.pack()
+    credit.pack()
     apod_image.pack()
     explanation.pack()
     window.title("🔭 Nasa Astronomy Picture of the Day 🪐")
