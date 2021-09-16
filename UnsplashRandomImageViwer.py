@@ -13,6 +13,7 @@ window = tk.Tk()
 window.title("Unsplash Random Image Viewer")
 
 # You can change the number of images returned by altering the 'count' to a desired number
+# Keep in mind that the API only allows 50 calls per day
 url = "https://api.unsplash.com/photos/random?client_id={Replace with your own API key}&count=10"
 url = requests.get(url)
 data = json.loads(url.text)
