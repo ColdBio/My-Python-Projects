@@ -7,6 +7,12 @@ import io
 import urllib.request
 from io import BytesIO
 
+"""
+Credit to Pytube for providing a lightweight, dependency-free Python library (and command-line utility) for downloading YouTube Videos.
+Github: https://github.com/pytube/pytube
+Documentation: https://pytube.io/en/latest/
+
+"""
 
 
 all_res = ["240p", "360p", "480p", "720p", "1080p", "1440p", "2160p"]
