@@ -12,6 +12,7 @@ import string
 window = tk.Tk()
 window.title("Unsplash Random Image Viewer")
 
+
 # You can change the number of images returned by altering the 'count' to a desired number
 # Keep in mind that the API only allows 50 calls per day
 url = "https://api.unsplash.com/photos/random?client_id={Replace with your own API key}&count=10"
@@ -62,7 +63,7 @@ img_iter = iter(images)
 desc_iter = iter(desc_list)
 username_iter = iter(username_list)
 likes_iter = iter(likes_list)
-downlaods_iter = iter(downloads_list)
+downloads_iter = iter(downloads_list)
 views_iter = iter(views_list)
 
 image = tk.Label(image=next(img_iter))
@@ -70,7 +71,7 @@ alt_desc = tk.Label(text=next(desc_iter))
 
 username = tk.Label(text="Username: " + next(username_iter))
 likes = tk.Label(text=f"Likes: {next(likes_iter)}")
-downalods = tk.Label(text=f"Downalods: {next(downlaods_iter)}")
+downalods = tk.Label(text=f"Downalods: {next(downloads_iter)}")
 views = tk.Label(text=f"Views: {next(views_iter)}")
 
 image.grid(row=1, column=1)
@@ -86,6 +87,10 @@ def refresh():
     try:
         image['image'] = next(img_iter)
         alt_desc['text'] = next(desc_iter)
+        username['text'] = f"Username: {next(username_iter)}"
+        downalods['text'] = f"Downloads {next(downloads_iter)}"
+        views['text'] = f"Views: {next(views_iter)}"
+        likes['text'] = f"Likes: {next(likes_iter)}"
         window.after(2500, refresh)
     except StopIteration:
         pass
